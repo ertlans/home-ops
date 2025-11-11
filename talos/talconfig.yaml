@@ -57,7 +57,7 @@ nodes:
         vip:
           ip: "10.66.93.49"
   - hostname: "talos-proxmox-2"
-    ipAddress: "10.66.93.53"
+    ipAddress: "10.66.93.52"
     installDisk: "/dev/sda"
     machineSpec:
       secureboot: false
@@ -68,7 +68,7 @@ nodes:
           hardwareAddr: "bc:24:11:e9:dc:17"
         dhcp: false
         addresses:
-          - "10.66.93.53/24"
+          - "10.66.93.52/24"
         routes:
           - network: "0.0.0.0/0"
             gateway: "10.66.93.1"
