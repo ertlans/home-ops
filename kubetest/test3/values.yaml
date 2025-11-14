@@ -1,0 +1,7 @@
+domain: "https://vw.dhdr.xyz/"
+storage:
+  data:
+    name: "vaultwarden-data"
+    size: "5Gi"
+    accessMode: "ReadWriteOnce"
+    class: "longhorn"
